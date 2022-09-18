@@ -1,0 +1,8 @@
+{
+   "editor.formatOnSave": true,
+   "[markdown]": {
+      "diffEditor.wordWrap": "on"
+   },
+   "editor.wordWrap": "on",
+   "debug.console.wordWrap": true
+}
