@@ -5,7 +5,7 @@ const Button = ({ icon, bgColor, color, bgHoverColor, size, text, borderRadius, 
       <button
          type='button'
          style={{ backgroundColor: bgColor, color, borderRadius }}
-         className={`text-${size} p-3 w-${width} hover:drop-shadow-xl hover:bg-${bgHoverColor}`}
+         className={`text-${size} p-3 w-${width} hover:drop-shadow-xl hover:bg-${bgHoverColor} duration-200`}
       >
          {icon} {text}
       </button>
